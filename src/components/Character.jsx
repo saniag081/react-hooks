@@ -10,7 +10,7 @@ export default function Character() {
 	console.log(getCharacter)
 	return (
 		<div>
-			{getCharacter.results.map((detail) => (
+			{getCharacter.results?.map((detail) => (
 				<h2>{detail.name}</h2>
 			))
 			}
